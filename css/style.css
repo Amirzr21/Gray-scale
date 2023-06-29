@@ -1,0 +1,453 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.bg{
+    display: block;
+    min-width: 992px;
+     height: 100vh;
+     padding: 0;
+     position: relative;
+     width: 100%;
+     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%),
+     url(https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg);
+     background-position:center;
+     background-repeat: no-repeat;
+     background-attachment: scroll;
+     background-size: cover; 
+}
+
+.navbar{
+    
+   letter-spacing: 0.0652em;
+   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%),
+   
+}
+
+.navbar .container{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.navbar .container .navbar-brand{
+    margin: 20px;
+    padding-left: 50px;
+    font-weight: 1000;
+    font-size: larger;
+    color: rgba(255, 255, 255,0.6 );
+}
+
+
+.navbar .container .navbar-collapse{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-right: 150px;
+}
+
+.navbar .container .navbar-collapse .navbar-nav{
+    display: flex;
+    flex-direction: row; 
+    gap: 70px;
+    list-style: none;  
+}
+
+.navbar .container .navbar-collapse .navbar-nav .nav-item{
+   text-decoration: none;
+    display: list-item;
+}
+
+.navbar .container .navbar-collapse .navbar-nav .nav-item a{
+     font-weight: 400;
+     font-size: medium;
+     color: rgba(255, 255, 255, 0.6);
+ }
+
+ .navbar .container .navbar-collapse .navbar-nav .nav-item :hover{
+   color: white;
+ }
+
+/* Masthead */
+
+ .header-container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 80vh;
+}
+
+.masthead .header-container .content-center{
+    display: flex; 
+    justify-content: center;
+}
+
+.masthead .header-container .content-center .text-center{
+    text-align: center;
+}
+
+.masthead .header-container .content-center .text-center .text-uppercase{
+   font-size: 6.5rem; 
+   line-height: 6rem;
+   letter-spacing: 1.5rem;
+   background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text ;
+    cursor:pointer;
+}
+
+.masthead .header-container .content-center .text-center .text{
+    margin-top: 15px;
+    margin-bottom: 48px;
+    margin-left:132.512px;
+    margin-right:132.512px;
+    font-weight: 500;
+    line-height: 1.9rem;
+    --bs-text-opacity: 1;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+  .btn{
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+    padding: 20px 32px;
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #fff;
+    background-color: #64a19d;
+    border-radius: 5px;   
+}
+
+/* About */
+
+.about-section{
+    padding-top: 10rem;
+    background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+.about-section .about-container{
+     padding-right: 48px ;
+     padding-left: 48px;
+     max-width: 1320px;
+     margin-left:99px;
+     margin-right: 99px;
+} 
+
+
+.about-section .about-container .justify{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   margin: 0 24px;
+}
+
+.col-lg-8{
+ padding: 0px 24px;
+}
+
+.about-text{
+   --bs-text-opacity: 1;
+    color: white;
+    margin-bottom: 24px;
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1rem;
+    text-align: center;
+    
+
+}
+
+.about-p{
+ text-align: center;
+ margin-bottom: 80px;
+ color: rgba(255, 255, 255, 0.5)
+}
+
+.about-a{
+  color:#64a19d;
+  text-decoration: underline;
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+/* Project */
+
+
+.project-m{
+  margin-bottom: 48px;
+}
+.project-section{
+    
+    padding: 160px 0px;
+    opacity: 1;
+    background-color:rgba(248, 249, 250);
+}
+
+
+
+.project-section .project-container{
+     margin: 0px  auto;
+     padding: 0px 48px;
+     max-width: 1320px;
+}
+
+.col-xl-8{
+    flex: 0 0 auto;
+    width: 66.66666667%;
+}
+
+.col-xl-4{
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
+
+
+.project-img{
+   width: 100%;
+   height: auto;
+}
+
+.project-text{
+ margin-top: 175px;
+ padding-left: 32px;
+ border-left: 8px solid #64a19d;
+}
+
+.project-text h4{
+    margin-bottom: 8px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.7rem;
+
+}
+
+.project-p{
+     margin: 0px;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-size: 17px;
+}
+
+/* project-two */
+
+.project-two-img{
+   width: 100%;
+   height: auto;
+}
+
+.project-two-container{
+  background-color: #000;
+  height: 98.8%;
+  text-align: center;
+}
+
+.project-two-d-flex{
+  display: flex;
+}
+
+.project-two-text{
+    padding: 80px;
+    margin: 98px 0px;
+}
+
+.project-two-text h4{
+  color: #fff;
+  margin-bottom: 8px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.7rem;
+}
+
+.project-two-text p{
+    margin: 0px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    font-size: 17px
+}
+
+.project-three{
+   margin-bottom: -5px;
+}
+
+/* signup */
+
+.signup-section{
+   padding: 160px 0px;
+   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url(https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-signup.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.signup-container{
+    padding: 0px 48px;
+    margin: 0px 99px;
+    max-width: 1320px;
+
+}
+
+
+.text-center{
+   margin: 0px auto;
+   padding: 0px 24px;
+   text-align: center;
+}
+
+.p-p{
+  margin-bottom: 8px;
+  color: #fff;
+  font-size: 38px;
+}
+
+.text-center h2{
+   margin-bottom: 48px;
+   color: #fff;
+   font-size: 38px;
+   font-weight: 500;
+   line-height: 1.2;
+}
+
+.signup-form{
+   display: block;
+   margin-top: 0;
+}
+
+.col{
+   flex: 1 0 0%;
+}
+
+.form-control{
+    box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+    padding: 21px 32px;
+    height: auto;
+    font-size: 80%;
+    width: 90%;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 5px;
+}
+
+.bttn{
+   box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+    padding: 20px 32px;
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #fff;
+    background-color: #64a19d;
+    border-radius: 5px;    
+}
+
+/* contact */
+
+.contact-section{
+   padding-top: 80px;
+   background-color: #000;
+}
+
+.contact-container{
+   margin: 0px auto;
+   padding: 0px 48px;
+   max-width: 1320px;
+}
+
+.px-4{
+  margin: 0px -24px;
+  height: 200px;
+}
+
+.cart{
+   padding: 0px 24px;
+   margin-bottom: 0px;
+}
+
+.card{
+    
+    border: 0;
+    border-bottom: 4px solid #64a19d;
+    padding: 24px 0px;
+    background-color: #fff;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.card-body{
+  flex: 1 1 auto;
+  text-align: center;
+  padding: 16px;
+}
+
+.card-body i{
+  color: rgb(100, 161, 157);
+  margin-bottom: 8px;
+}
+
+.card-body h4{
+  font-size: 15px;
+  letter-spacing: 0.15rem;
+  font-weight: 400;
+}
+
+.hr{
+    background-color: #64a19d;
+    height: 4px;
+    margin: 24px 148px;
+}
+
+.contact-text{
+ color: rgba(0, 0, 0, 0.5);
+}
+
+.social{
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.media{
+    text-align: center;
+    height: 3rem;
+    width: 3rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 100%;
+    line-height: 3rem;
+    color: rgba(255, 255, 255, 0.3);
+    margin: 0px  8px;
+}
+
+.media:hover{
+    color: #64a19d;
+}
+
+/* footer */
+
+footer{
+    background-color: #000;
+    padding: 80px;
+}
+
+
+.footer-container{
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
